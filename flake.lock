@@ -1,0 +1,95 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "liquid-fixpoint-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701283485,
+        "narHash": "sha256-E3bLXGPKJojsNJiiiG/6B2tjR97MSAHowbm3QsOdMiY=",
+        "owner": "ucsd-progsys",
+        "repo": "liquid-fixpoint",
+        "rev": "1f7e9ddb530ba13ff0eb275bee94d5fe5e6892aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ucsd-progsys",
+        "repo": "liquid-fixpoint",
+        "type": "github"
+      }
+    },
+    "liquidhaskell-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701184585,
+        "narHash": "sha256-rouq8CEhFlLuXITYc2RbddXwrRRBB9r4Qtdsq6OimmM=",
+        "owner": "ucsd-progsys",
+        "repo": "liquidhaskell",
+        "rev": "d2351b08b6d3b881a5218b66623cadbb480ebb7e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ucsd-progsys",
+        "repo": "liquidhaskell",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1701253981,
+        "narHash": "sha256-ztaDIyZ7HrTAfEEUt9AtTDNoCYxUdSd6NrRHaYOIxtk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e92039b55bcd58469325ded85d4f58dd5a4eaf58",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "liquid-fixpoint-src": "liquid-fixpoint-src",
+        "liquidhaskell-src": "liquidhaskell-src",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
